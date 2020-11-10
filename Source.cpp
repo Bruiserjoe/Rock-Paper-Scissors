@@ -15,12 +15,12 @@ int main() {
 			
 
 		}
-		 if (choice1.compare("Paper")) {
+		 else if (choice1.compare("Paper")) {
 
 			chose = 2;
 
 		}
-		 if (choice1.compare("Scissors")) {
+		 else if (choice1.compare("Scissors")) {
 
 			chose = 3;
 
@@ -32,7 +32,7 @@ int main() {
 						std::cout << "You lost" << std::endl;
 						quit = true;
 					}
-					if (cpchose == 3) {
+					else if (cpchose == 3) {
 						std::cout << "You won!" << std::endl;
 						
 					}
@@ -43,7 +43,7 @@ int main() {
 						std::cout << "You won!" << std::endl;
 
 					}
-					if (cpchose == 3) {
+					else if (cpchose == 3) {
 						
 						std::cout << "You lost" << std::endl;
 						quit = true;
@@ -56,7 +56,7 @@ int main() {
 						quit = true;
 					
 					}
-					if (cpchose == 2) {
+					else if (cpchose == 2) {
 					
 						std::cout << "You won!" << std::endl;
 
